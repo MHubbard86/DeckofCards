@@ -1,0 +1,39 @@
+.navbar-light .navbar-brand, .contact-link {
+  color: rgba(0,0,0,.5);
+}
+
+.contact-link:hover {
+  color: rgba(0,0,0,.7);
+}
+
+.navbar {
+  box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
+}
+
+.navbar-brand {
+  margin-right: 2rem;
+}
+
+.btn-success, .btn-success:hover, 
+.btn-success:not(:disabled):not(.disabled).active,
+.btn-success:not(:disabled):not(.disabled):active,
+.show>.btn-success.dropdown-toggle,
+.btn-success:not(:disabled):not(.disabled).active:focus,
+.btn-success:not(:disabled):not(.disabled):active:focus,
+.show>.btn-success.dropdown-toggle:focus,
+.btn-success.focus, .btn-success:focus
+{
+  color: rgba(0,0,0,.5);
+  background-color: transparent;
+  border-color: none;
+  border: none;
+  box-shadow: none;
+}
+
+.dropdown-menu {
+  min-width: 85px;
+}
+
+.dropdown-toggle::after {
+  vertical-align: middle;
+}
